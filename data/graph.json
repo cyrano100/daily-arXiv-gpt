@@ -1,0 +1,346 @@
+[
+  {
+    "title": "Extremal graphs with minimum number of connected subgraphs in a given\n  family",
+    "url": "http://arxiv.org/abs/2508.06476v1",
+    "pub_date": "2025-08-08",
+    "summary": "The subgraph number of a vertex in a graph is defined as the number of\nconnected subgraphs containing that vertex. The graph and its vertex which\ncorrespond to the minimum subgraph number among all graphs on $n$ vertices and\n$k$ cut vertices have been characterised. Further, using this characterisation,\nthe graphs with the minimum number of connected subgraphs among all graphs on\n$n$ vertices and $k$ cut vertices, with girth at least $k$, have been obtained.\nThis turns out to characterise the graphs with the minimum number of connected\nsubgraphs among all graphs on $n$ vertices and $k$ cut vertices for $0 \\leq k\n\\leq 4$.",
+    "authors": [
+      {
+        "name": "Dinesh Pandey",
+        "affiliations": [
+          "Lazaridis School of Business and Economics, Wilfrid Laurier University"
+        ]
+      },
+      {
+        "name": "Peruvemba Sundaram Ravi",
+        "affiliations": [
+          "Lazaridis School of Business and Economics, Wilfrid Laurier University"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Round Aztec windows, a dual of the Aztec diamond theorem and a curious\n  symmetry of the correlation of diagonal slits",
+    "url": "http://arxiv.org/abs/2508.06451v1",
+    "pub_date": "2025-08-08",
+    "summary": "Fairly shortly after the publication of the Aztec diamond theorem of Elkies,\nKuperberg, Larsen and Propp in 1992, interest arose in finding the number of\ndomino tilings of an Aztec diamond with an ``Aztec window,'' i.e.\\ a hole in\nthe shape of a smaller Aztec diamond at its center. Several intriguing patterns\nwere discovered for the number of tilings of such regions, but the numbers\nthemselves were not ``round'' -- they didn't seem to be given by a simple\nproduct formula. In this paper we consider a very closely related shape of\nholes (namely, odd Aztec rectangles), and prove that a large variety of regions\nobtained from Aztec rectangles by making such holes in them possess the\nsought-after property that the number of their domino tilings is given by a\nsimple product formula. We find the same to be true for certain symmetric\ncruciform regions. We also consider graphs obtained from a toroidal Aztec\ndiamond by making such holes in them, and prove a simple formula that governs\nthe way the number of their perfect matchings changes under a natural evolution\nof the holes. This yields in particular a natural dual of the Aztec diamond\ntheorem. Some implications for the correlation of such holes are also\npresented, including an unexpected symmetry for the correlation of diagonal\nslits on the square grid.",
+    "authors": [
+      {
+        "name": "Mihai Ciucu",
+        "affiliations": []
+      }
+    ]
+  },
+  {
+    "title": "Leveraging transfer learning for accurate estimation of ionic migration\n  barriers in solids",
+    "url": "http://arxiv.org/abs/2508.06436v1",
+    "pub_date": "2025-08-08",
+    "summary": "Ionic mobility determines the rate performance of several applications, such\nas batteries, fuel cells, and electrochemical sensors and is exponentially\ndependent on the migration barrier ($E_m$), a difficult to measure/calculate\nquantity. Previous approaches to identify materials with high ionic mobility\nhave relied on imprecise descriptors given the lack of generalizable models to\npredict $E_m$. Here, we present a graph neural network based architecture that\nleverages principles of transfer learning to efficiently and accurately predict\n$E_m$ across a diverse set of materials. We use a model pre-trained\nsimultaneously on seven distinct bulk properties (labeled MPT), modify the MPT\nmodel to classify different migration pathways in a structure, and fine-tune\n(FT) on a manually-curated literature-derived dataset of 619 $E_m$ data points\ncalculated with density functional theory. Importantly, our best-performing FT\nmodel (labeled MODEL-3) demonstrates substantial improvements in prediction\naccuracy compared to classical machine learning methods, graph models trained\nfrom scratch, and a universal machine learned interatomic potential, with a\nR$^2$ score of 0.703 and a mean absolute error of 0.261 eV on the test set.\nNotably, MODEL-3 is able to distinguish different migration pathways within a\nstructure and also demonstrates excellent ability to generalize across\nintercalant compositions and chemistries. As a classifier, MODEL-3 exhibits\n80\\% accuracy and 82.8\\% precision in identifying materials that are `good'\nionic conductors (i.e., structures with $E_m <$0.65~eV). Thus, our work\ndemonstrates the effective use of FT strategies and architectural modifications\nnecessary for making swift and accurate $E_m$ predictions, which will be useful\nfor materials discovery in batteries and for predicting other data-scarce\nmaterial properties.",
+    "authors": [
+      {
+        "name": "Reshma Devi",
+        "affiliations": [
+          "Department of Materials Engineering, Indian Institute of Science, Bengaluru, 560012, India"
+        ]
+      },
+      {
+        "name": "Keith T. Butler",
+        "affiliations": [
+          "Department of Chemistry, University College London, London WC1E 6BT, United Kingdom"
+        ]
+      },
+      {
+        "name": "Gopalakrishnan Sai Gautam",
+        "affiliations": [
+          "Department of Materials Engineering, Indian Institute of Science, Bengaluru, 560012, India"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "V*: An Efficient Motion Planning Algorithm for Autonomous Vehicles",
+    "url": "http://arxiv.org/abs/2508.06404v1",
+    "pub_date": "2025-08-08",
+    "summary": "Autonomous vehicle navigation in structured environments requires planners\ncapable of generating time-optimal, collision-free trajectories that satisfy\ndynamic and kinematic constraints. We introduce V*, a graph-based motion\nplanner that represents speed and direction as explicit state variables within\na discretised space-time-velocity lattice. Unlike traditional methods that\ndecouple spatial search from dynamic feasibility or rely on post-hoc smoothing,\nV* integrates both motion dimensions directly into graph construction through\ndynamic graph generation during search expansion. To manage the complexity of\nhigh-dimensional search, we employ a hexagonal discretisation strategy and\nprovide formal mathematical proofs establishing optimal waypoint spacing and\nminimal node redundancy under constrained heading transitions for\nvelocity-aware motion planning. We develop a mathematical formulation for\ntransient steering dynamics in the kinematic bicycle model, modelling steering\nangle convergence with exponential behaviour, and deriving the relationship for\nconvergence rate parameters. This theoretical foundation, combined with\ngeometric pruning strategies that eliminate expansions leading to infeasible\nsteering configurations, enables V* to evaluate dynamically admissible\nmanoeuvres, ensuring each trajectory is physically realisable without further\nrefinement. We further demonstrate V*'s performance in simulation studies with\ncluttered and dynamic environments involving moving obstacles, showing its\nability to avoid conflicts, yield proactively, and generate safe, efficient\ntrajectories with temporal reasoning capabilities for waiting behaviours and\ndynamic coordination.",
+    "authors": [
+      {
+        "name": "Abdullah Zareh Andaryan",
+        "affiliations": [
+          "Institute of Transport and Logistics Studies, Business School, the University of Sydney, Sydney, 2006, NSW, Australia"
+        ]
+      },
+      {
+        "name": "Michael G. H. Bell",
+        "affiliations": [
+          "Institute of Transport and Logistics Studies, Business School, the University of Sydney, Sydney, 2006, NSW, Australia"
+        ]
+      },
+      {
+        "name": "Mohsen Ramezani",
+        "affiliations": [
+          "School of Civil Engineering, Faculty of Engineering, the University of Sydney, Sydney, 2006, NSW, Australia"
+        ]
+      },
+      {
+        "name": "Glenn Geers",
+        "affiliations": [
+          "Institute of Transport and Logistics Studies, Business School, the University of Sydney, Sydney, 2006, NSW, Australia"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Automated Creation of the Legal Knowledge Graph Addressing Legislation\n  on Violence Against Women: Resource, Methodology and Lessons Learned",
+    "url": "http://arxiv.org/abs/2508.06368v1",
+    "pub_date": "2025-08-08",
+    "summary": "Legal decision-making process requires the availability of comprehensive and\ndetailed legislative background knowledge and up-to-date information on legal\ncases and related sentences/decisions. Legal Knowledge Graphs (KGs) would be a\nvaluable tool to facilitate access to legal information, to be queried and\nexploited for the purpose, and to enable advanced reasoning and machine\nlearning applications. Indeed, legal KGs may act as knowledge intensive\ncomponent to be used by pre-dictive machine learning solutions supporting the\ndecision process of the legal expert. Nevertheless, a few KGs can be found in\nthe legal domain. To fill this gap, we developed a legal KG targeting legal\ncases of violence against women, along with clear adopted methodologies.\nSpecifically, the paper introduces two complementary approaches for automated\nlegal KG construction; a systematic bottom-up approach, customized for the\nlegal domain, and a new solution leveraging Large Language Models. Starting\nfrom legal sentences publicly available from the European Court of Justice, the\nsolutions integrate structured data extraction, ontology development, and\nsemantic enrichment to produce KGs tailored for legal cases involving violence\nagainst women. After analyzing and comparing the results of the two approaches,\nthe developed KGs are validated via suitable competency questions. The obtained\nKG may be impactful for multiple purposes: can improve the accessibility to\nlegal information both to humans and machine, can enable complex queries and\nmay constitute an important knowledge component to be possibly exploited by\nmachine learning tools tailored for predictive justice.",
+    "authors": [
+      {
+        "name": "Claudia dAmato",
+        "affiliations": [
+          "Computer Science Department, University of Bari Aldo Moro, Italy"
+        ]
+      },
+      {
+        "name": "Giuseppe Rubini",
+        "affiliations": [
+          "Computer Science Department, University of Bari Aldo Moro, Italy"
+        ]
+      },
+      {
+        "name": "Francesco Didio",
+        "affiliations": [
+          "Computer Science Department, University of Bari Aldo Moro, Italy"
+        ]
+      },
+      {
+        "name": "Donato Francioso",
+        "affiliations": [
+          "Computer Science Department, University of Bari Aldo Moro, Italy"
+        ]
+      },
+      {
+        "name": "Fatima Zahra Amara",
+        "affiliations": [
+          "Computer Science Department, University of Bari Aldo Moro, Italy"
+        ]
+      },
+      {
+        "name": "Nicola Fanizzi",
+        "affiliations": [
+          "Computer Science Department, University of Bari Aldo Moro, Italy"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Harnessing Adaptive Topology Representations for Zero-Shot Graph\n  Question Answering",
+    "url": "http://arxiv.org/abs/2508.06345v1",
+    "pub_date": "2025-08-08",
+    "summary": "Large Multimodal Models (LMMs) have shown generalized zero-shot capabilities\nin diverse domain question-answering (QA) tasks, including graph QA that\ninvolves complex graph topologies. However, most current approaches use only a\nsingle type of graph representation, namely Topology Representation Form (TRF),\nsuch as prompt-unified text descriptions or style-fixed visual styles. Those\n\"one-size-fits-all\" approaches fail to consider the specific preferences of\ndifferent models or tasks, often leading to incorrect or overly long responses.\nTo address this, we first analyze the characteristics and weaknesses of\nexisting TRFs, and then design a set of TRFs, denoted by $F_{ZS}$, tailored to\nzero-shot graph QA. We then introduce a new metric, Graph Response Efficiency\n(GRE), which measures the balance between the performance and the brevity in\ngraph QA. Built on these, we develop the DynamicTRF framework, which aims to\nimprove both the accuracy and conciseness of graph QA. To be specific,\nDynamicTRF first creates a TRF Preference (TRFP) dataset that ranks TRFs based\non their GRE scores, to probe the question-specific TRF preferences. Then it\ntrains a TRF router on the TRFP dataset, to adaptively assign the best TRF from\n$F_{ZS}$ for each question during the inference. Extensive experiments across 7\nin-domain algorithmic graph QA tasks and 2 out-of-domain downstream tasks show\nthat DynamicTRF significantly enhances the zero-shot graph QA of LMMs in terms\nof accuracy",
+    "authors": [
+      {
+        "name": "Yanbin Wei",
+        "affiliations": [
+          "Southern University of Science and Technology",
+          "Hong Kong University of Science and Technology"
+        ]
+      },
+      {
+        "name": "Jiangyue Yan",
+        "affiliations": [
+          "Southern University of Science and Technology"
+        ]
+      },
+      {
+        "name": "Chun Kang",
+        "affiliations": []
+      },
+      {
+        "name": "Yang Chen",
+        "affiliations": [
+          "Southern University of Science and Technology"
+        ]
+      },
+      {
+        "name": "Hua Liu",
+        "affiliations": [
+          "Southern University of Science and Technology"
+        ]
+      },
+      {
+        "name": "James T. Kwok",
+        "affiliations": [
+          "Hong Kong University of Science and Technology"
+        ]
+      },
+      {
+        "name": "Yu Zhang",
+        "affiliations": [
+          "Southern University of Science and Technology"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "On Approximate MMS Allocations on Restricted Graph Classes",
+    "url": "http://arxiv.org/abs/2508.06343v1",
+    "pub_date": "2025-08-08",
+    "summary": "We study the problem of fair division of a set of indivisible goods with\nconnectivity constraints. Specifically, we assume that the goods are\nrepresented as vertices of a connected graph, and sets of goods allocated to\nthe agents are connected subgraphs of this graph. We focus on the\nwidely-studied maximin share criterion of fairness. It has been shown that an\nallocation satisfying this criterion may not exist even without connectivity\nconstraints, i.e., if the graph of goods is complete. In view of this, it is\nnatural to seek approximate allocations that guarantee each agent a connected\nbundle of goods with value at least a constant fraction of the maximin share\nvalue to the agent. It is known that for some classes of graphs, such as\ncomplete graphs, cycles, and $d$-claw-free graphs for any fixed $d$, such\napproximate allocations indeed exist. However, it is an open problem whether\nthey exist for the class of all graphs.\n  In this paper, we continue the systematic study of the existence of\napproximate allocations on restricted graph classes. In particular, we show\nthat such allocations exist for several well-studied classes, including block\ngraphs, cacti, complete multipartite graphs, and split graphs.",
+    "authors": [
+      {
+        "name": "Václav Blažej",
+        "affiliations": [
+          "University of Warsaw",
+          "Warsaw University of Technology"
+        ]
+      },
+      {
+        "name": "Michał Dębski ad Zbigniew Lonc",
+        "affiliations": [
+          "Warsaw University of Technology"
+        ]
+      },
+      {
+        "name": "Marta Piecyk",
+        "affiliations": [
+          "CISPA Helmholtz Center for Information Security"
+        ]
+      },
+      {
+        "name": "Paweł Rzążewski",
+        "affiliations": [
+          "University of Warsaw",
+          "Warsaw University of Technology"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Situationally-aware Path Planning Exploiting 3D Scene Graphs",
+    "url": "http://arxiv.org/abs/2508.06283v1",
+    "pub_date": "2025-08-08",
+    "summary": "3D Scene Graphs integrate both metric and semantic information, yet their\nstructure remains underutilized for improving path planning efficiency and\ninterpretability. In this work, we present S-Path, a situationally-aware path\nplanner that leverages the metric-semantic structure of indoor 3D Scene Graphs\nto significantly enhance planning efficiency. S-Path follows a two-stage\nprocess: it first performs a search over a semantic graph derived from the\nscene graph to yield a human-understandable high-level path. This also\nidentifies relevant regions for planning, which later allows the decomposition\nof the problem into smaller, independent subproblems that can be solved in\nparallel. We also introduce a replanning mechanism that, in the event of an\ninfeasible path, reuses information from previously solved subproblems to\nupdate semantic heuristics and prioritize reuse to further improve the\nefficiency of future planning attempts. Extensive experiments on both\nreal-world and simulated environments show that S-Path achieves average\nreductions of 5.7x in planning time while maintaining comparable path\noptimality to classical sampling-based planners and surpassing them in complex\nscenarios, making it an efficient and interpretable path planner for\nenvironments represented by indoor 3D Scene Graphs.",
+    "authors": [
+      {
+        "name": "Saad Ejaz",
+        "affiliations": [
+          "Automation and Robotics Research Group, Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg"
+        ]
+      },
+      {
+        "name": "Marco Giberna",
+        "affiliations": [
+          "Automation and Robotics Research Group, Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg"
+        ]
+      },
+      {
+        "name": "Muhammad Shaheer",
+        "affiliations": [
+          "Automation and Robotics Research Group, Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg"
+        ]
+      },
+      {
+        "name": "Jose Andres Millan-Romera",
+        "affiliations": [
+          "Automation and Robotics Research Group, Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg"
+        ]
+      },
+      {
+        "name": "Ali Tourani",
+        "affiliations": [
+          "Automation and Robotics Research Group, Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg"
+        ]
+      },
+      {
+        "name": "Paul Kremer",
+        "affiliations": [
+          "Automation and Robotics Research Group, Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg"
+        ]
+      },
+      {
+        "name": "Holger Voos",
+        "affiliations": [
+          "Automation and Robotics Research Group, Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg",
+          "Faculty of Science, Technology and Medicine, University of Luxembourg"
+        ]
+      },
+      {
+        "name": "Jose Luis Sanchez-Lopez",
+        "affiliations": [
+          "Automation and Robotics Research Group, Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Mitigating Undesired Conditions in Flexible Production with\n  Product-Process-Resource Asset Knowledge Graphs",
+    "url": "http://arxiv.org/abs/2508.06278v1",
+    "pub_date": "2025-08-08",
+    "summary": "Contemporary industrial cyber-physical production systems (CPPS) composed of\nrobotic workcells face significant challenges in the analysis of undesired\nconditions due to the flexibility of Industry 4.0 that disrupts traditional\nquality assurance mechanisms. This paper presents a novel industry-oriented\nsemantic model called Product-Process-Resource Asset Knowledge Graph (PPR-AKG),\nwhich is designed to analyze and mitigate undesired conditions in flexible\nCPPS. Built on top of the well-proven Product-Process-Resource (PPR) model\noriginating from ISA-95 and VDI-3682, a comprehensive OWL ontology addresses\nshortcomings of conventional model-driven engineering for CPPS, particularly\ninadequate undesired condition and error handling representation. The\nintegration of semantic technologies with large language models (LLMs) provides\nintuitive interfaces for factory operators, production planners, and engineers\nto interact with the entire model using natural language. Evaluation with the\nuse case addressing electric vehicle battery remanufacturing demonstrates that\nthe PPR-AKG approach efficiently supports resource allocation based on\nexplicitly represented capabilities as well as identification and mitigation of\nundesired conditions in production. The key contributions include (1) a\nholistic PPR-AKG model capturing multi-dimensional production knowledge, and\n(2) the useful combination of the PPR-AKG with LLM-based chatbots for human\ninteraction.",
+    "authors": [
+      {
+        "name": "Petr Novak",
+        "affiliations": [
+          "Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague"
+        ]
+      },
+      {
+        "name": "Stefan Biffl",
+        "affiliations": [
+          "TU Wien – Institute of Information Systems Engineering, Faculty of Informatics"
+        ]
+      },
+      {
+        "name": "Marek Obitko",
+        "affiliations": [
+          "Rockwell Automation – Advanced Technology"
+        ]
+      },
+      {
+        "name": "Petr Kadera",
+        "affiliations": [
+          "Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Multi-Omics Analysis for Cancer Subtype Inference via Unrolling Graph\n  Smoothness Priors",
+    "url": "http://arxiv.org/abs/2508.06257v1",
+    "pub_date": "2025-08-08",
+    "summary": "Integrating multi-omics datasets through data-driven analysis offers a\ncomprehensive understanding of the complex biological processes underlying\nvarious diseases, particularly cancer. Graph Neural Networks (GNNs) have\nrecently demonstrated remarkable ability to exploit relational structures in\nbiological data, enabling advances in multi-omics integration for cancer\nsubtype classification. Existing approaches often neglect the intricate\ncoupling between heterogeneous omics, limiting their capacity to resolve subtle\ncancer subtype heterogeneity critical for precision oncology. To address these\nlimitations, we propose a framework named Graph Transformer for Multi-omics\nCancer Subtype Classification (GTMancer). This framework builds upon the GNN\noptimization problem and extends its application to complex multi-omics data.\nSpecifically, our method leverages contrastive learning to embed multi-omics\ndata into a unified semantic space. We unroll the multiplex graph optimization\nproblem in that unified space and introduce dual sets of attention coefficients\nto capture structural graph priors both within and among multi-omics data. This\napproach enables global omics information to guide the refining of the\nrepresentations of individual omics. Empirical experiments on seven real-world\ncancer datasets demonstrate that GTMancer outperforms existing state-of-the-art\nalgorithms.",
+    "authors": [
+      {
+        "name": "Jielong Lu",
+        "affiliations": [
+          "Zhejiang Key Laboratory of Accessible Perception and Intelligent Systems, College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      {
+        "name": "Zhihao Wu",
+        "affiliations": [
+          "Zhejiang Key Laboratory of Accessible Perception and Intelligent Systems, College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      {
+        "name": "Jiajun Yu",
+        "affiliations": [
+          "Zhejiang Key Laboratory of Accessible Perception and Intelligent Systems, College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      {
+        "name": "Jiajun Bu",
+        "affiliations": [
+          "Zhejiang Key Laboratory of Accessible Perception and Intelligent Systems, College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      {
+        "name": "Haishuai Wang",
+        "affiliations": [
+          "Zhejiang Key Laboratory of Accessible Perception and Intelligent Systems, College of Computer Science and Technology, Zhejiang University"
+        ]
+      }
+    ]
+  }
+]
